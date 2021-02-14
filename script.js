@@ -44,7 +44,7 @@ function showMovies(movies) {
     main.appendChild(movieEL);
   });
 }
-
+//color function
 function getClassByRate(vote) {
   if (vote >= 8) {
     return "green";
